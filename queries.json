@@ -1,0 +1,160 @@
+{
+    "where is my order?": {
+        "response": "please enter your order id",
+        "context": "order",
+        "response_type": "asking"
+    },
+    "i want to return my product": {
+        "response":"please enter your order id",
+        "context":"refund",
+        "response_type": "asking"
+    },
+    "is the iphone 15 in stock?": {
+        "response": "checking inventory...",
+        "context":"stock",
+        "response_type": "non-asking",
+        "product": "iphone 15"
+    },
+
+    "is the iphone 14 in stock?": {
+        "response": "checking inventory...",
+        "context":"stock",
+        "response_type": "non-asking",
+        "product": "iphone 14"
+    },
+
+    "is the iphone 13 in stock?": {
+        "response": "checking inventory...",
+        "context":"stock",
+        "response_type": "non-asking",
+        "product": "iphone 13"
+    },
+
+    "is the iphone 12 in stock?": {
+        "response": "checking inventory...",
+        "context":"stock",
+        "response_type": "non-asking",
+        "product": "iphone 12"
+    },
+
+    "is the iphone 11 in stock?": {
+        "response": "checking inventory...",
+        "context":"stock",
+        "response_type": "non-asking",
+        "product": "iphone 11"
+    },
+    
+    "why did my payment fail?": {
+        "response": "check with your bank",
+        "context": "payments",
+        "response_type": "non-asking"
+    },
+    "how do i track my order?": {
+        "response": "You can track your order using the tracking link sent to your email after your purchase.",
+        "context": "product",
+        "response_type": "non-asking"
+    },
+    
+    "how can i view my recent purchases?": {
+        "response": "You can view your recent purchases in your account dashboard under 'Order History'.",
+        "context": "dashboard",
+        "response_type": "non-asking" 
+
+    },
+
+   "do you offer warranty for products?": {
+        "response": "Yes! We offer a range of 1-5 year warranties for our products.",
+        "context": "product",
+        "response_type": "non-asking"
+    },
+
+    "where do you operate?": {
+        "response": "We operate in multiple countries including the US, Canada, and Europe.",
+        "context": "location",
+        "response_type": "non-asking"
+
+    },
+
+    "what discounts do you offer?": {
+        "response": "Please check our 'Deals' section on the homepage for the latest promotions and special offers.",
+        "context": "product",
+        "response_type": "non-asking"
+
+    },
+        
+    "how do i activate my product?": {
+        "response": "Activation instructions are included in the product packaging. You can also find guides on our Support page.",
+        "context": "product",
+        "response_type": "non-asking"
+
+    },
+
+    "what can i accessorise with my product?": {
+        "response": "Look through the products that are on display to see compatible accessories.",
+        "context": "product",
+        "response_type": "non-asking"
+
+    },
+
+    "do you have physical stores?": {
+        "response": "Yes! We have physical stores in major cities across the US such as New York, Los Angeles, and Chicago. Store hours vary by location.",
+        "context": "location",
+        "response_type": "non-asking"
+
+    },
+
+    "what are your shipping options?": {
+        "response": "We offer standard (5-7 days), express (2-3 days), and next-day shipping options at checkout.",
+        "context": "shipping",
+        "response_type": "non-asking"
+    },
+
+    "can you add items to an existing order?": {
+        "response": "Unfortuanately, once an order is placed, we cannot add items to it. You can place a new order for any additional items.",
+        "context": "items",
+        "response_type": "non-asking"
+    },
+
+    "when is the next upcoming sale?": {
+        "response": "Our next seasonal sale begins on the first of next month. Sign up for our newsletter for early access.",
+        "context": "sale",
+        "response_type": "non-asking"
+    },
+
+    "what is your repair policy?": {
+        "response": "We offer repair services for products under warranty at no charge. Out-of-warranty repairs have variable fees.",
+        "context": "repair",
+        "response_type": "non-asking"
+
+    },
+
+    "where is the nearest store or pickup location?": {
+        "response": "Please enter your ZIP code to find the nearest pickup location.",
+        "context": "location",
+        "response_type": "non-asking"
+    },
+
+    "do you offer student discounts?": {
+        "response": "Yes, we offer a 10% student discount. Verify your student status via your school email or ID when in person.",
+        "context": "payments",
+        "response_type": "non-asking"
+    },
+
+    "is there technical support?": {
+        "response": "Yes, technical support is available by phone, email, or live chat during business hours.",
+        "context": "tech support",
+        "response_type": "non-asking"
+    },
+
+    "can i change my shipping method?" : {
+        "response": "Shipping methods can only be changed within 1 hour of placing your order. Please contact support immediately.",
+        "context": "shipping",
+        "response_type": "non-asking"
+    },
+
+    "are there product demos?": {
+        "response": "Virtual product demonstrations are available by appointment. In-store demos are available during business hours.",
+        "context": "demo",
+        "response_type": "non-asking"
+    }
+}
